@@ -68,3 +68,13 @@
     padding: 8px 12px;
   }
 }
+
+@media (max-width: 500px) {
+  .header {
+    flex-direction: column;
+  }
+
+  .header-menu {
+    justify-content: center;
+  }
+}
