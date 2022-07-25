@@ -36,8 +36,22 @@
   gap: 32px;
 }
 
+.footer a {
+  transition: 0.2s;
+}
+
 .footer a:hover {
   color: var(--cor-0);
+}
+
+.footer-redes a {
+  transition: 0.2s;
+  border: 2px solid transparent;
+  padding: 4px;
+}
+
+.footer-redes a:hover {
+  border-color: var(--cor-0);
 }
 
 .footer-copy {
