@@ -15,11 +15,11 @@
 }
 
 .bicicletas-imagem img {
-  grid-area: 1 /1;
+  grid-area: 1 / 1;
 }
 
 .bicicletas-imagem span {
-  grid-area: 1 /1;
+  grid-area: 1 / 1;
   background: var(--cor-12);
   padding: 8px 16px 8px 8px;
   display: inline-block;
