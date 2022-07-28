@@ -159,22 +159,6 @@
   display: grid;
 }
 
-.termos-condicoes input[type="checkbox"] {
-  width: 32px;
-  height: 32px;
-}
-
-.termos-condicoes label {
-  margin: 0px;
-}
-
-.termos-condicoes {
-  display: grid;
-  grid-template-columns: auto 1fr;
-  align-items: center;
-  gap: 8px;
-}
-
 @media (max-width: 1200px) {
   .orcamento-produto,
   .orcamento-dados {
