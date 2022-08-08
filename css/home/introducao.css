@@ -30,6 +30,12 @@
   margin-bottom: 20px;
 }
 
+@media (max-width: 1200px) {
+  .introducao-bg {
+    background: var(--cor-12);
+  }
+}
+
 @media (max-width: 800px) {
   .introducao-bg {
     background: var(--cor-11);
