@@ -1,3 +1,12 @@
+// Ativar link da pagina interna bicicleta
+
+const paginaBicicleta = document.getElementById("bicicleta");
+
+if (paginaBicicleta) {
+  const linkBicicleta = document.querySelector(".header-menu a");
+  linkBicicleta.classList.add("ativo");
+}
+
 //Ativar Links do Menu
 const links = document.querySelectorAll(".header-menu a");
 
